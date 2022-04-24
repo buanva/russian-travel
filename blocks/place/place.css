@@ -1,0 +1,16 @@
+.place {
+    width: 100%;
+    padding-top: 80px;
+}
+
+@media screen and (max-width: 1023px) {
+    .place {
+        padding-top: 73px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .place {
+        padding-top: 50px;
+    }
+}
