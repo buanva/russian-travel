@@ -13,6 +13,6 @@
 * адаптивная вёрстка
 * работа с макетом в Figma
 
-[Ссылка на GitHub Pages:] (_место для ссылки_) 
+[Ссылка на GitHub Pages:] (https://buanva.github.io/russian-travel/) 
 
 ```
