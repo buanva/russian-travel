@@ -16,7 +16,6 @@
     .footer {
         width: 186px;
         align-self: flex-start;
-        padding: 64px 16px 0 24px;
-        flex-wrap: wrap;
+        padding: 64px 0 24px 16px;
     }
 }

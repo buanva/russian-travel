@@ -1,10 +1,10 @@
-.place__second-row {
+.place__row-description {
     display: flex;
     justify-content: space-between;
 }
 
 @media screen and (max-width: 767px) {
-    .place__second-row {
+    .place__row-description {
         flex-wrap: wrap;
     }
 }

@@ -1,5 +1,24 @@
 .cover {
     width: 100%;
+    background-image: url(../../../images/cover-trains.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.cover::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #2A2C2F;
+    opacity: 0.3;
+    position: absolute;
+    transition: opacity .3s linear;
+}
+
+.cover:hover.cover::before {
+    opacity: 0.8;
 }
 
 @media screen and (min-width: 1270px) {
