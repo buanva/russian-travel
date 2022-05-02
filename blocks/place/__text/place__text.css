@@ -1,5 +1,6 @@
 .place__text {
     width: 100%;
+    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 29px;
@@ -8,4 +9,18 @@
 
 .place__text:last-of-type {
     margin: 0;
+}
+
+@media screen and (max-width: 1022px) {
+    .place__text {
+        width: 352px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+
+@media screen and (max-width: 766px) {
+    .place__text {
+        width: 288px;
+    }
 }

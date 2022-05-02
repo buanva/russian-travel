@@ -1,12 +1,20 @@
-.place__title {
+/* .place__title {
     width: 380px;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    margin: 0;
+} */
+
+.place__title {
+    width: 460px;
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
     margin: 0;
 }
 
-@media screen and (max-width: 960px) {
+/* @media screen and (max-width: 960px) {
     .place__title {
         width: 288px;
         font-size: 32px;
@@ -19,5 +27,28 @@
     .place__title {
         font-size: 42px;
         line-height: 46px;
+    }
+} */
+
+@media screen and (max-width: 1278px) {
+    .place__title {
+        width: 440px;
+    }
+}
+
+@media screen and (max-width: 1022px) {
+    .place__title {
+        width: 340px;
+        font-size: 42px;
+        line-height: 46px;
+    }
+}
+
+@media screen and (max-width: 766px) {
+    .place__title {
+        width: 288px;
+        font-size: 32px;
+        line-height: 35px;
+        margin: 0 0 32px;
     }
 }
